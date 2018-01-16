@@ -1,0 +1,29 @@
+Here are the steps for completing this warmup problem:
+
+1) Copy the file from the following location to your personal computer:
+
+/home/users/hampton2/lab1_313/animal.jpg
+
+To do this, you'll probably use a command like this (from a terminal on YOUR computer, not on ix-dev):
+
+scp username@ix-dev.cs.uoregon.edu:/home/users/hampton2/lab1_313/animal.jpg .
+
+Don't forget the dot at the end! That's saying you want to copy the file to the current directory you run the command from.
+
+Open the picture and see what kind of animal it is!
+
+2) Now, log back onto ix-dev and go to the pset0 directory you created before. Create a file called 'problem1' using the touch command:
+
+touch problem1
+
+3) Use your favorite command-line editor to type the name of the animal in the file problem1. If you haven't used a command-line editor before, try using nano:
+
+nano problem1
+
+4) Check that you got the answer right, and it's formatted the same as my solution:
+
+diff problem1 /home/users/hampton2/lab1_313/problem1_solution
+
+If there's no output from the diff command, you've got it right! Otherwise, diff tells you what the difference is. Use the command-line editor to fix your problem1 file until it exactly matches mine.
+
+That's it! You're done with this part of the warmup.
