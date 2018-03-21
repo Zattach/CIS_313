@@ -1,0 +1,18 @@
+17
+insert 40
+insert 5
+insert 4
+insert -5
+insert 25
+insert 15
+insert 33
+insert 55
+get_subtree_sizes
+order 1
+order 8
+order 5
+order 9
+insert -100
+get_subtree_sizes
+order 1
+order 9
